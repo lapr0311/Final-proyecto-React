@@ -45,21 +45,6 @@ const MeatPizza = () => {
 </div>
 
 
-
-
-
-//     <div>
-
-// <h2>Carnes Pizzas</h2>
-//       {Meatpp.map(pizza => (
-//         <div key={pizza.id}>
-//           <h3>{pizza.name}</h3>
-//           <p>{pizza.desc}</p>
-//           <p>Price: ${pizza.price}</p>
-//         </div>
-//       ))}
-
-//  </div>
   )
 }
 

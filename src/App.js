@@ -15,20 +15,11 @@ import pizzas from '../src/pizzas.json'
 
 
 function App() {
-    // const endpoint = "../pizzas.json";
-    // const [pizzas, setPizzas] = useState([])
+  
     const [carrito, setCarrito] = useState([])
     const [total, setTotal] = useState(0)
 
-    // useEffect(() => {
-    //     obtenerPizzas()
-    // }, [])
 
-    // const obtenerPizzas = async () => {
-    //     const response = await fetch(endpoint)
-    //     const data = await response.json()
-    //     setPizzas(data)
-    // }
 
     const sumaTotal = () => {
         const newCarrito = carrito;
