@@ -6,10 +6,10 @@
         "ingredients": [
             "Mozzarella",
             "Tomates",
-            "Jamón",
             "Orégano"
         ],
         "name": "Napolitana",
+        "category": "Vegetariana",
         "price": 12990
     },
     {
@@ -23,6 +23,7 @@
             "Choricillo"
         ],
         "name": "Española",
+        "category": "Meat",
         "price": 14990
     },
     {
@@ -36,6 +37,7 @@
             "Orégano"
         ],
         "name": "Salame",
+        "category": "Meat",
         "price": 13990
     },
     {
@@ -44,11 +46,11 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
         "ingredients": [
             "Mozzarella",
-            "Salame",
             "Aceitunas",
             "Champiñones"
         ],
         "name": "Cuatro Estaciones",
+        "category": "Vegetariana",
         "price": 16990
     },
     {
@@ -62,6 +64,7 @@
             "Orégano"
         ],
         "name": "Bacon",
+        "category": "Meat",
         "price": 11990
     },
     {
@@ -75,6 +78,7 @@
             "Orégano"
         ],
         "name": "Pollo Picante",
+        "category": "Meat",
         "price": 12990
     }
 ]

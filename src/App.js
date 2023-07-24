@@ -6,23 +6,29 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import DatosPizza from './components/DatosPizza'
 import Carrito from './components/Carrito';
+import Categoria from './components/Categoria';
+import MeatPizza from './components/MeatPizza';
+import VegetarianaPizza from './components/VegetarianaPizza';
+import pizzas from '../src/pizzas.json'
+
+
 
 
 function App() {
-    const endpoint = "/pizzas.json";
-    const [pizzas, setPizzas] = useState([])
+    // const endpoint = "../pizzas.json";
+    // const [pizzas, setPizzas] = useState([])
     const [carrito, setCarrito] = useState([])
     const [total, setTotal] = useState(0)
 
-    useEffect(() => {
-        obtenerPizzas()
-    }, [])
+    // useEffect(() => {
+    //     obtenerPizzas()
+    // }, [])
 
-    const obtenerPizzas = async () => {
-        const response = await fetch(endpoint)
-        const data = await response.json()
-        setPizzas(data)
-    }
+    // const obtenerPizzas = async () => {
+    //     const response = await fetch(endpoint)
+    //     const data = await response.json()
+    //     setPizzas(data)
+    // }
 
     const sumaTotal = () => {
         const newCarrito = carrito;
@@ -82,6 +88,9 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/pizzas/:id" element={<DatosPizza />} />
                         <Route path="/carrito" element={<Carrito />} />
+                        <Route path='/categoria' element={<Categoria />} />
+                        <Route path='/meatpizza' element={<MeatPizza />} />
+                        <Route path='/vegetarianapizza' element={<VegetarianaPizza />} />
                     </Routes>
                 </BrowserRouter>
             </Context.Provider>
