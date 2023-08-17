@@ -4,9 +4,9 @@ import React, { useState, useEffect } from "react"
 import Context from "./Context";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import DatosPizza from './components/DatosPizza'
+import DatosPizza from './components/ItemPizzaContainer'
 import Carrito from './components/Carrito';
-import Categoria from './components/Categoria';
+import Categoria from './components/ItemPizza';
 import MeatPizza from './components/MeatPizza';
 import VegetarianaPizza from './components/VegetarianaPizza';
 import pizzas from '../src/pizzas.json'

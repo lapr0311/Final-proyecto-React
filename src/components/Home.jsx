@@ -1,5 +1,5 @@
 import Fondo from "./Fondo";
-import Pizzas from "./Pizzas"
+import Pizzas from "./ItemDetailpizza"
 export default function Home() {
     return (
         <>
